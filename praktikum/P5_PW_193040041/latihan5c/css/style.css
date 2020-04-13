@@ -1,0 +1,30 @@
+body{
+    background-color: black;
+    color: red;
+
+}
+
+/* Navbar */
+.navbar{
+	position: relative;
+    z-index: 1;
+}
+
+.navbar-brand{
+	font-family: viga;
+    font-size: 32px;
+}
+
+/* membuat card di dalam detail menjadi di tengah */
+.card{
+    margin-left: auto;
+    margin-right: auto;
+}
+.card-body p{
+    text-align: center;
+    color: red;
+}
+.card-img-top{
+    width: 100%;
+}
+

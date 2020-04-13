@@ -13,6 +13,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- css ku -->
+        <link rel="stylesheet" type="text/css" href="css/style.css">
     <title>tugas5b</title>
 </head>
 <body>
@@ -33,7 +35,7 @@
     <?php foreach ($elektronik as $elektro) : ?>
     <tr>
         <td><?= $i ?></td>
-        <td><img src="assets/img/<?= $elektro["cover"]; ?>" height="100px"></td>
+        <td><img src="assets/img/<?= $elektro["cover"]; ?>"></td>
         <td><?= $elektro["model_laptop"]; ?></td>
         <td><?= $elektro["processor"]; ?></td>
         <td><?= $elektro["graphic_card"]; ?></td>
