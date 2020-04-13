@@ -20,7 +20,7 @@ $result = mysqli_query($conn, "SELECT * FROM elektronik");
 </head>
 <body>
 <div class="container">
-<h1>Daftar 10 Laptop Gaming</h1>
+<h1>Daftar 11 Laptop Gaming</h1>
 <table border="1" cellpadding="8" cellspacing="0" style="text-align : center " >
     <tr>
         <th>ID</th>
@@ -36,7 +36,7 @@ $result = mysqli_query($conn, "SELECT * FROM elektronik");
     <?php while($row = mysqli_fetch_assoc($result)) : ?>
     <tr>
         <td><?= $i?></td>
-        <td><img src="../assets/img/<?= $row["cover"]; ?>" height="100px"></td>
+        <td><img src="assets/img/<?= $row["cover"]; ?>" height="100px"></td>
         <td><?= $row["model_laptop"]; ?></td>
         <td><?= $row["processor"]; ?></td>
         <td><?= $row["graphic_card"]; ?></td>
