@@ -39,20 +39,32 @@
   </div>
 </nav>
 <!-- akhir navbar -->
-<div class="container">
+
+<h1 style="text-align : center " >Daftar 11 Laptop Gaming</h1>
+<table cellpadding="8" cellspacing="0" style="text-align : center " >
+    <tr>
+        <th>ID</th>
+        <th>Cover</th>
+        <th>Model Laptop</th>
+        <th>Processor</th>
+        <th>Harga</th>
+    </tr>
+    <?php $i = 1 ?>
     <?php foreach ($elektronik as $elektro) : ?>
     <tr>
+        <td><?= $i ?></td>
         <td><img src="assets/img/<?= $elektro["cover"]; ?>" height="100px"></td>
-        <td><?= $elektro["harga"]; ?></td>
-    </tr>
-        <p class="cover">
+        <td>        <p class="cover">
             <a href="php/detail.php?id=<?= $elektro['id'] ?>" >
             <?= $elektro['model_laptop'] ?>
             </a>
-        </p>
-        
+        </p></td>
+        <td><?= $elektro["processor"]; ?></td>
+        <td><?= $elektro["harga"]; ?></td>
+    </tr>
+    <?php $i++?>
     <?php endforeach; ?>
-    
+        
 </div> 
 </div>
 
