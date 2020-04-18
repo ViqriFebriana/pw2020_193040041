@@ -14,26 +14,32 @@ $mhs = query("SELECT * FROM mahasiswa WHERE id = $id");
 <head>
  <meta charset="UTF-8">
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <style>
+  body {
+   background-color: skyblue;
+   color:
+  }
+
+  h2 {
+   text-align: center;
+  }
+ </style>
  <title>Detail Mahasiswa</title>
 </head>
 
 <body>
- <h3>Detail Mahasiswa</h3>
- <div class="container">
-  <div class="Gambar">
-   <img src="img/<?= $mhs['gambar']; ?>" width="320px" alt="">
-  </div>
-
-  <div class="keterangan">
-   <p><?= $mhs['nama']; ?></p>
-   <p><?= $mhs['nrp']; ?></p>
-   <p><?= $mhs['Email']; ?></p>
-   <p><?= $mhs['jurusan']; ?></p>
-
-  </div>
-
-  <button class="tombol-kembali"><a href="latihan3.php">Kembali</a></button>
- </div>
+ <h2>DETAIL MAHASISWA</h2>
+ <table>
+  <tr>
+   <li><img src="img/<?= $mhs['gambar']; ?>" style="width: 500px;"></li>
+   <li>NRP : <?= $mhs['nrp']; ?></li>
+   <li>Nama : <?= $mhs['nama']; ?></li>
+   <li>Email : <?= $mhs['Email']; ?></li>
+   <li>Jurusan : <?= $mhs['jurusan']; ?></li>
+   <li><a href="">Ubah</a> | <a href="">Hapus</a></li>
+   <li><a href=" latihan3.php">Kembali ke dafta mahasiswa</a></li>
+  </tr>
+ </table>
 </body>
 
 </html>

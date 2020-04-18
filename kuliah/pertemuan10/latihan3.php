@@ -8,11 +8,21 @@ $mahasiswa = query("SELECT * FROM mahasiswa");
 <head>
  <meta charset="UTF-8">
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <style>
+  body {
+   background-color: skyblue;
+   color:
+  }
+
+  h2 {
+   text-align: center;
+  }
+ </style>
  <title>Daftar Mahasiswa</title>
 </head>
 
 <body>
- <h3>daftar mahasiswa</h3>
+ <h2>DAFTAR MAHASISWA</h2>
 
  <a href="tambah.php">tambah data mahasiswa</a>
  <BR></BR>

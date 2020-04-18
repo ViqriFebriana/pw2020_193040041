@@ -3,14 +3,14 @@ require 'functions.php';
 
 //Cek apakah tombol tambah sudah ditekan
 if (isset($_POST['tambah'])) {
- if (tambah($_POST) > 0) {
-  echo "<script>
+  if (tambah($_POST) > 0) {
+    echo "<script>
     alert('data berhasil ditambahkan');
     document.location.href = 'latihan3.php';
     </script>";
- } else {
-  echo "data gagal ditambahkan!";
- }
+  } else {
+    echo "data gagal ditambahkan!";
+  }
 }
 ?>
 
@@ -20,46 +20,72 @@ if (isset($_POST['tambah'])) {
 <html lang="en">
 
 <head>
- <meta charset="UTF-8">
- <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <title>Tambah Data Mahasiswa</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tambah Data Mahasiswa</title>
 </head>
 
 <body>
- <h3>Form TambahData Mahasiswa</h3>
- <form action="" method="POST">
-  <ul>
-   <li><label>
-     Nama:
-     <input type="text" name="nama" autofocus required>
-    </label>
-   </li>
-   <li><label>
-     Nrp:
-     <input type="text" name="nrp" required>
-    </label>
-   </li>
-   <li><label>
-     Email:
-     <input type="text" name="Email" required>
-    </label>
-   </li>
-   <li><label>
-     Jurusan:
-     <input type="text" name="jurusan" required>
-    </label>
-   </li>
-   <li><label>
-     Gambar:
-     <input type="text" name="gambar" required>
-    </label>
-   </li>
-   <li><button type="submit" name="tambah">TambahData</button>
-   </li>
+  <h3>Form TambahData Mahasiswa</h3>
+  <form action="" method="POST">
+    <table>
+      <tr>
+        <td><label>
+            Nama
+        </td>
+        <td>:</td>
+        <td>
+          <input type="text" name="nama" autofocus required>
+          </label>
+        </td>
+      <tr>
+        <td><label>
+            Nrp
+        </td>
+        <td>:</td>
+        <td>
+          <input type="text" name="nrp" required>
+          </label>
+        </td>
+      </tr>
+      <tr>
+        <td><label>
+            Email
+        </td>
+        <td>:</td>
+        <td>
+          <input type="text" name="Email" required>
+          </label>
+        </td>
+      </tr>
+      <tr>
+        <td><label>
+            Jurusan
+        <td>:</td>
+        <td>
+          <input type="text" name="jurusan" required>
+          </label>
+        </td>
+      </tr>
+      <tr>
+        <td><label>
+            Gambar
+        </td>
+        <td>:</td>
+        <td>
+          <input type="text" name="gambar" required>
+          </label>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <button type="submit" name="tambah">TambahData</button>
+        </td>
+      </tr>
 
-  </ul>
-
- </form>
+      </ul>
+    </table>
+  </form>
 </body>
 
 </html>
