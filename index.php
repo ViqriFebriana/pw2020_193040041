@@ -177,7 +177,7 @@
 			</div>
 			<div class="div">
 				<br><br><br><br><br><br><br><br><br><br><br><br><br>
-
+				<p style="color: red; 	text-align: center;">---Wajib Desktop Atau Mobile landscape!!!---</p>
 			</div>
 
 		</div>
