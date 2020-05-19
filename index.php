@@ -173,7 +173,7 @@
 
 				<p>Nama saya Muhammad Viqri Febriana NRP 193040041 Dari kelas B Teknik Informatika, Universitas Pasundan</p>
 				<p>Ramadhan telah berlalu, fajar kemenangan telah menyambut. Membawa sinar terang kedamaian dan kesucian. Menebarkan berkah di idul fitri yang suci. Selamat Hari Raya Idul Fitri 1441 H. Mohon maaf lahir dan batin.</p>
-				<p> Terimakasih Pak Sandika Galih Dan Akang/Teteh asdos Atas Ilmu Nya Selama Satu Tahun Ini Dan Telah Membimbing Saya Dengan Sabar.</p>
+				<p> Terimakasih Pak Sandhika Galih Dan Akang/Teteh asdos Atas Ilmu Nya Selama Satu Tahun Ini Dan Telah Membimbing Saya Dengan Sabar.</p>
 			</div>
 			<div class="div">
 				<br><br><br><br><br><br><br><br><br><br><br><br><br>
