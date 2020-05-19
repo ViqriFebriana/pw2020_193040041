@@ -41,22 +41,22 @@ function upload()
           return 'nophoto.jpg';
      }
 
-     //Cek ekstensi file
+     // cek ekstensi file
      $daftar_gambar = ['jpg', 'jpeg', 'png'];
      $ekstensi_file = explode('.', $nama_file);
      $ekstensi_file = strtolower(end($ekstensi_file));
      if (!in_array($ekstensi_file, $daftar_gambar)) {
           echo "<script>
-    alert('Yang anda pilih bukan gambar!')
-    </script>";
+           alert('Yang anda pilih bukan gambar!')
+           </script>";
           return false;
      }
 
-     // Cek tipe file
-     if ($tipe_file != 'image/jpeg' && $tipe_file != 'image/png' && $tipe_file != 'image/jpg') {
+     // cek type file
+     if ($tipe_file != 'image/jpeg' && $tipe_file != 'image/png') {
           echo "<script>
-    alert('Yang anda pilih bukan gambar!')
-    </script>";
+           alert('Yang anda pilih bukan gambar!')
+           </script>";
           return false;
      }
 
@@ -91,6 +91,9 @@ function tambah($data)
 
      // upload gambar
      $gambar = upload();
+     if (!$gambar) {
+          return false;
+     }
 
      $query = "INSERT INTO
             mahasiswa
