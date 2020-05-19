@@ -79,6 +79,9 @@ if (isset($_POST['cari'])) {
       </table>
    </div>
 
+   <br><br><br>
+   <button class=""><a href="../../index.php">kembali Ke Halaman Index</a></button>
+   <!-- js -->
    <script src="js/script.js"></script>
 </body>
 

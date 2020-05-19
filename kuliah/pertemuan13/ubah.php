@@ -95,9 +95,9 @@ if (isset($_POST['ubah'])) {
         </td>
         <td>:</td>
         <td>
-          <input type="file" name="gambar" class="gambar" onchange="priviewImage">
+          <input type="file" name="gambar" class="gambar" onchange="previewImage()">
           </label>
-          <img src="img/<?= $mhs['gambar']; ?>" width="120" style="display: block" class="img-preview">
+          <img src="img/<?= $mhs['gambar']; ?>" width="120" style="display: block;" class="img-preview">
         </td>
       </tr>
       <tr>

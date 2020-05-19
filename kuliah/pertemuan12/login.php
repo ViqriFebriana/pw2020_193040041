@@ -49,6 +49,8 @@ if (isset($_POST['login'])) {
 
         </form>
     </table>
+    <br><br><br>
+    <button class=""><a href="../../index.php">kembali Ke Halaman Index</a></button>
 </body>
 
 </html>

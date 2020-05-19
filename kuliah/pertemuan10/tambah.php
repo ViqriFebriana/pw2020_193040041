@@ -86,6 +86,9 @@ if (isset($_POST['tambah'])) {
       </ul>
     </table>
   </form>
+
+  <br><br><br>
+  <button class=""><a href="../../index.php">kembali Ke Halaman Index</a></button>
 </body>
 
 </html>
