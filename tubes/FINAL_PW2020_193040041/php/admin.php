@@ -38,13 +38,15 @@ if (isset($_GET['cari'])) {
 
 <body>
   <div class="container">
-    <h1>Daftar 11 Laptop Gaming</h1>
+    <h1>Halaman Admin</h1>
+    <h1>Daftar Laptop Gaming</h1>
     <a href="logout.php">
       <button type="">LOGOUT</button>
     </a>
     <br><br>
     <div>
-      <a href="tambah.php">Tambah Data</a>
+      <button><a href="tambah.php">Tambah Data</a></button>
+      <br><br>
       <form action="" method="get">
         <input type="text" name="keyword">
         <button type="submit" name="cari">Cari!</button>

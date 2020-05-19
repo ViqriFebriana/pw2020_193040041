@@ -59,8 +59,11 @@ if (isset($_POST['registrasi'])) {
                      <td><input type="password" name="password" required></td>
                   </tr>
                </table>
-               <button type="submit" name="registrasi">registrasi!</button>
+               <br>
+               <button type="submit" name="registrasi">Registrasi!</button>
             </form>
+            <br><br>
+            <p style="color: red;">--Halaman Admin Wajib Desktop !!--</p>
          </div>
       </div>
    </div>

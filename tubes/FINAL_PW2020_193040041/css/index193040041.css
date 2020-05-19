@@ -101,7 +101,10 @@ body{
 .sidebar{
 	width: 300px;
 	float: right;
-	padding: 20px
+	padding: 20px;
+}
+.katakata{
+	text-align: justify;
 }
 
 .sidebar h3 {

@@ -8,7 +8,7 @@
 	<!-- Bootstrap CSS -->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="tubes/FINAL_PW2020_193040041/css/index193040041.css">
-	<title>Latihan Box Model</title>
+	<title>Tugas Akhir PW2020</title>
 
 </head>
 
@@ -28,7 +28,7 @@
 		<div class="content cf">
 			<div class="main">
 				<h2>index</h2>
-				<p class="penulis">ditulis oleh <a href="#">Muhammad Viqri Febriana</a> pada 20 Mei 2020.</p>
+				<p class="penulis">ditulis oleh <a href="#">Muhammad Viqri Febriana</a> secara berkala dan selelai pada 19 Mei 2020.</p>
 
 				<div class="row">
 					<div class="col-3">
@@ -167,12 +167,13 @@
 				</div>
 			</div>
 
-			<div class="sidebar">
+			<div class="sidebar katakata">
 				<h3>Tentang Penulis</h3>
 				<img src="tubes/FINAL_PW2020_193040041/assets/indexakhir/Viqri.jpg">
 
-				<p>Nama saya Muhammad Viqri Febriana NRP 193040041 Dari kelas B Senin 08.40</p>
-
+				<p>Nama saya Muhammad Viqri Febriana NRP 193040041 Dari kelas B Teknik Informatika, Universitas Pasundan</p>
+				<p>Ramadhan telah berlalu, fajar kemenangan telah menyambut. Membawa sinar terang kedamaian dan kesucian. Menebarkan berkah di idul fitri yang suci. Selamat Hari Raya Idul Fitri 1441 H. Mohon maaf lahir dan batin.</p>
+				<p> Terimakasih Pak Sandika Galih Dan Akang/Teteh asdos Atas Ilmu Nya Selama Satu Tahun Ini Dan Telah Membimbing Saya Dengan Sabar.</p>
 			</div>
 			<div class="div">
 				<br><br><br><br><br><br><br><br><br><br><br><br><br>
@@ -182,7 +183,7 @@
 		</div>
 
 		<div class="footer">
-			<p class="copy">Copyright &copy;Muhammad Viqri Febriana</p>
+			<p class="copy">Copyright &copy 2020.MUHAMMAD VIQRI FEBRIANA</p>
 		</div>
 
 
